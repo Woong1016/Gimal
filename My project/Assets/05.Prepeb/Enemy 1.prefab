@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 956219193955073448}
   - component: {fileID: 956219193955073449}
   - component: {fileID: 956219193955073462}
-  - component: {fileID: 9113925046432507063}
   m_Layer: 0
   m_Name: Enemy 1
   m_TagString: Untagged
@@ -98,16 +97,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 10}
   m_Center: {x: 0, y: 0, z: -5}
---- !u!114 &9113925046432507063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 956219193955073463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df507600ffe9df349a3026376092dd05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sparkEffect: {fileID: 1000011945391522, guid: 1632b9eecd51121439c19290e2fa030d, type: 3}
