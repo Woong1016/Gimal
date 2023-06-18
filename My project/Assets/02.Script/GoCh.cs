@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneMover : MonoBehaviour
+public class GoCh : MonoBehaviour
 {
     public void Change()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Ch");
     }
 }

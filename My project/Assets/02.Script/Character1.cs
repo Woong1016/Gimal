@@ -5,13 +5,13 @@ using UnityEngine;
 public class Character1 : MonoBehaviour
 {
     public float sesitivity = 500f;
-        public float rotationX;
+    public float rotationX;
     public float rotationY;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -23,11 +23,11 @@ public class Character1 : MonoBehaviour
         rotationX += mouseMoveY * sesitivity * Time.deltaTime;
 
 
-        if(rotationX>35f)
+        if (rotationX > 35f)
         {
             rotationX = 35f;
         }
-        if(rotationX<-30f)
+        if (rotationX < -30f)
         {
             rotationX = -30f;
 
