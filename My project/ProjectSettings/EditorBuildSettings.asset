@@ -16,7 +16,10 @@ EditorBuildSettings:
     guid: db7336d7f49fbb84bae7dffece337f6b
   - enabled: 1
     path: Assets/01.Scenes/Game.unity
-    guid: 826ff7ff665cc9043bc5e6e1668f488a
+    guid: 4bb9f898ea57c81439ea7aa52234713d
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/01.Scenes/Eneding.unity
     guid: 030319d27f1ec664cb907ac56edea645
